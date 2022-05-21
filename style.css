@@ -1,0 +1,228 @@
+
+
+
+body{
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    background-color: #15161B;
+
+
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.logo h2{
+    color: white;
+    font-size: 30px;
+    
+    
+}
+.logo span{
+    color: rgb(255, 0, 0);
+}
+.sessao1{
+    display: flex;
+    justify-content: center;
+    margin-top: +100px;
+
+}
+.titulo1 h3{
+    color: white;
+    font-weight: normal;
+    
+
+}
+.titulo1 h1{
+    color: white;
+    font-size: 45px;
+    line-height: 50px;
+    margin-top: -15px;
+    
+}
+/*criando um butao*/
+.titulo1 a{
+    display: inline-block;
+    background-color: darkred;
+    padding: 15px 60px;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 2s;
+    
+
+}
+ .titulo1 a:hover{
+     background-color: rgb(252, 80, 80);
+    
+
+    
+}
+
+
+.img1 img{
+    width: 460px;
+    height: auto;
+    margin-top: +20px;
+    margin-left: 55px;
+
+
+}
+/*empresas*/
+.empresasaltas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
+.empresasaltas h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-top: +50px;
+}
+.empresas{
+    display: flex;
+    flex-direction: row;
+    margin-top: +30px;
+}
+
+.empresa:hover{
+    background-color: cornflowerblue;
+    transition: 0.3s all;
+}
+.empresa{
+    background-color: #2c2f37;
+    width: 220px;
+    height: 190px;
+    margin-left: 25px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.empresa img{
+    width: 175px;
+}
+/*texto 3*/
+.sessao3{
+    justify-content: center;
+    display: flex;
+    background-color: rgb(217,61,61);
+    height: 320px;
+    margin-bottom: 90px;
+    align-items: center;
+}
+.img2 img{
+    display: flex;
+    width: 500px;
+    height: auto;
+    margin-top: -10px;
+    margin-left: 90px;
+    
+    
+    
+}
+.texto2 h1{
+    color: white;
+    font-size: 35px;
+
+
+}
+.texto2 h3{
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: -25px;
+}
+.texto2 a{
+    display: inline-block;
+    background-color: darkred;
+    padding: 15px 60px;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+
+}
+.texto2 a:hover{
+    background-color: rgb(252, 80, 80);
+}
+
+/*PARTE DE CADASTRO*/
+
+.areacadastral{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+
+}
+.areacadastral h2{
+    color: white;
+    text-align: center;
+}
+
+.cadastro form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+}
+.cadastro input{
+    border: none;
+    margin-top: 20px;
+    height: 40px;
+    outline: none;
+    padding-left: 10px;
+    font-family: 'oswald';
+
+}
+input::placeholder{
+    color: black;
+    text-transform: uppercase;
+    
+
+
+}
+input[type='submit']{
+    background-color: rgb(252, 80, 80) ;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    height: 55px;
+    border-radius: 10px;
+}
+footer{
+   margin-top: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+   
+.social h3{
+    color: white;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+}
+.social img{
+    width: 30px;
+    margin-left: 15px;
+}
+
